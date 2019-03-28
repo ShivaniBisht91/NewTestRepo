@@ -1,4 +1,4 @@
-package frameworkTest.ExcelReader;
+package Qaclickacademyframework.ExcelReader;
 
 
 import java.io.File;
@@ -13,7 +13,7 @@ import org.testng.annotations.DataProvider;
 public class ExcelUtil {
 	
 	
-    static File f = new File("D:\\Shivani_Workspce\\Projects\\FrameworkTest\\src\\frameworkTest\\TestData\\Register-Login.xlsx");
+    static File f = new File("D:\\Shivani_Workspce\\Projects\\Qaclickacademyframework\\src\\Qaclickacademyframework\\TestData\\Register-Login.xlsx");
 	static	Workbook wb;
 	static FileInputStream fis;
 	

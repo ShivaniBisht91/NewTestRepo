@@ -1,4 +1,5 @@
-package frameworkTest.commonScriptsUtil;
+package Qaclickacademyframework.commonScriptsUtil;
+
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -6,17 +7,18 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
-import frameworkTest.DriverReaders.AllDrivers1;
-import frameworkTest.KeywordUtil.KeywordUtil;
-import frameworkTest.ObjectRepo.ObjectRepo;
+import Qaclickacademyframework.DriverReaders.AllDrivers;
+import Qaclickacademyframework.KeywordUtil.KeywordUtil;
+import Qaclickacademyframework.ObjectRepo.ObjectRepo;
 
-public class Login extends AllDrivers1{
+
+public class Login extends AllDrivers{
 	
 	public Properties pro;
 	public FileInputStream fis;
 	
 	
-	  File src=new File("D:\\Shivani_Workspce\\Projects\\FrameworkTest\\src\\frameworkTest\\Configuration\\Config.properties");
+	  File src=new File("D:\\Shivani_Workspce\\Projects\\Qaclickacademyframework\\src\\Qaclickacademyframework\\Configuration\\Config.properties");
 		
 	
   public void login() {

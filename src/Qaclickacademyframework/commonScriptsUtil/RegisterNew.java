@@ -1,4 +1,4 @@
-package frameworkTest.commonScriptsUtil;
+package Qaclickacademyframework.commonScriptsUtil;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -6,12 +6,13 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
-import frameworkTest.DriverReaders.AllDrivers1;
-import frameworkTest.ExcelReader.ExcelUtil;
-import frameworkTest.KeywordUtil.KeywordUtil;
-import frameworkTest.ObjectRepo.ObjectRepo;
+import Qaclickacademyframework.DriverReaders.AllDrivers;
+import Qaclickacademyframework.ExcelReader.ExcelUtil;
+import Qaclickacademyframework.KeywordUtil.KeywordUtil;
+import Qaclickacademyframework.ObjectRepo.ObjectRepo;
 
-public class RegisterNew extends AllDrivers1 {
+
+public class RegisterNew extends AllDrivers {
 	
 
  

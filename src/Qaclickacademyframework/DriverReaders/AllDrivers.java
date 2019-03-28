@@ -1,4 +1,4 @@
-package frameworkTest.DriverReaders;
+package Qaclickacademyframework.DriverReaders;
 
 
 import java.io.File;
@@ -12,7 +12,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import org.testng.annotations.BeforeTest;
 
-public class AllDrivers1 {
+public class AllDrivers{
 	
 	public static WebDriver driver;
 	public Properties pro;
@@ -24,7 +24,7 @@ public class AllDrivers1 {
   public void openChrome() {
 	 
 	  
-	  File src=new File("D:\\Shivani_Workspce\\Projects\\FrameworkTest\\src\\frameworkTest\\Configuration\\Config.properties");
+	  File src=new File("D:\\Shivani_Workspce\\Projects\\Qaclickacademyframework\\src\\Qaclickacademyframework\\Configuration\\Config.properties");
 		
 		try {
 			fis = new FileInputStream(src);

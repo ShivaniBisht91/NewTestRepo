@@ -1,10 +1,11 @@
-package frameworkTest.KeywordUtil;
+package Qaclickacademyframework.KeywordUtil;
 
 import org.openqa.selenium.By;
 
-import frameworkTest.DriverReaders.AllDrivers1;
+import Qaclickacademyframework.DriverReaders.AllDrivers;
 
-public class KeywordUtil extends AllDrivers1{
+
+public class KeywordUtil extends AllDrivers{
 	
 	public void sendkeysFunction(By id,String s) {
 		

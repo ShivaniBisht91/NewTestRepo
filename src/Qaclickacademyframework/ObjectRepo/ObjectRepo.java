@@ -1,11 +1,10 @@
-package frameworkTest.ObjectRepo;
+package Qaclickacademyframework.ObjectRepo;
 
 import org.openqa.selenium.By;
-//import org.openqa.selenium.WebElement;
+import Qaclickacademyframework.DriverReaders.AllDrivers;
 
-import frameworkTest.DriverReaders.AllDrivers1;
 
-public class ObjectRepo extends AllDrivers1 {
+public class ObjectRepo extends AllDrivers {
 	
 	//Register page
 	public By email_id=By.id("email_create");
