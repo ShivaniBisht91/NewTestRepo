@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-03-26T10:26:49Z" name="Default suite" finished-at="2019-03-26T10:27:39Z" duration-ms="49151">
+  <suite started-at="2019-03-29T10:36:08Z" name="Default suite" finished-at="2019-03-29T10:37:03Z" duration-ms="55384">
     <groups>
     </groups>
-    <test started-at="2019-03-26T10:26:49Z" name="Default test" finished-at="2019-03-26T10:27:39Z" duration-ms="49151">
-      <class name="frameworkTest.TestCases.SearchProduct">
-        <test-method is-config="true" signature="openChrome()[pri:0, instance:frameworkTest.TestCases.SearchProduct@f2ff811]" started-at="2019-03-26T10:26:49Z" name="openChrome" finished-at="2019-03-26T10:27:01Z" duration-ms="11097" status="PASS">
+    <test started-at="2019-03-29T10:36:08Z" name="Default test" finished-at="2019-03-29T10:37:03Z" duration-ms="55384">
+      <class name="Qaclickacademyframework.TestCases.PracticePage">
+        <test-method is-config="true" signature="openChrome()[pri:0, instance:Qaclickacademyframework.TestCases.PracticePage@f2ff811]" started-at="2019-03-29T10:36:08Z" name="openChrome" finished-at="2019-03-29T10:37:03Z" duration-ms="55161" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openChrome -->
-        <test-method signature="searchByValue()[pri:0, instance:frameworkTest.TestCases.SearchProduct@f2ff811]" started-at="2019-03-26T10:27:01Z" name="searchByValue" finished-at="2019-03-26T10:27:39Z" duration-ms="38030" status="PASS">
+        <test-method signature="all()[pri:0, instance:Qaclickacademyframework.TestCases.PracticePage@f2ff811]" started-at="2019-03-29T10:37:03Z" name="all" finished-at="2019-03-29T10:37:03Z" duration-ms="93" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchByValue -->
-      </class> <!-- frameworkTest.TestCases.SearchProduct -->
+        </test-method> <!-- all -->
+      </class> <!-- Qaclickacademyframework.TestCases.PracticePage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
