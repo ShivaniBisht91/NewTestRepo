@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="frameworkTest.TestCases.SearchProduct">
+      <class name="Qaclickacademyframework.TestCases.PracticePage">
         <methods>
-          <include name="searchByValue"/>
           <include name="openChrome"/>
+          <include name="all"/>
         </methods>
-      </class> <!-- frameworkTest.TestCases.SearchProduct -->
+      </class> <!-- Qaclickacademyframework.TestCases.PracticePage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

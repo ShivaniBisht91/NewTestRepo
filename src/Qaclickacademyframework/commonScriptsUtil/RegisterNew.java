@@ -36,7 +36,7 @@ public void registerNewUser(String email, String gender, String fname,String lna
 			String emailNew = emailSplit[0]+time+"@"+emailSplit[1]; 
 			
 			System.out.println(emailNew);
-			
+/*			
 		//	if(objrep.item.isDisplayed()) {
 			key.clearFunction(objrep.email_id);
 		
@@ -84,6 +84,7 @@ public void registerNewUser(String email, String gender, String fname,String lna
 			
 		}
 		
+		
 		key.sendkeysFunction(objrep.mobile, mobile);
 		key.sendkeysFunction(objrep.alias, alias);
 		key.clickFunction(objrep.subAccount);
@@ -99,5 +100,7 @@ public void registerNewUser(String email, String gender, String fname,String lna
 		
 		//WebElement name=driver.findElement(By.xpath("//*[@id=\"header\"]//div//a//span[contains(text(),'Shivani Bisht')]"));
 	    }
-  }
-//}
+	    
+	   
+  }   */
+  }}

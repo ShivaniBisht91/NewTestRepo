@@ -16,9 +16,13 @@ public class PracticePage extends AllDrivers {
 	  ObjectRepo objrep=new ObjectRepo();
 	  
 	  key.clickFunction(objrep.radio2);
-	  key.sendkeysFunction(objrep.auto,"India");
+	  String autotext=pro.getProperty("autotext");
+	  key.sendkeysFunction(objrep.auto,autotext);
 	  
-	 
+	  key.threadSleep(4000);
+	  key.autocomplete(objrep.autolist,autotext);
 	  
+	  key.basicDropDown(objrep.drop3);
+	  key.checkBox(objrep.check2);
   }
 }

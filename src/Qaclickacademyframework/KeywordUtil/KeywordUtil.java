@@ -1,6 +1,10 @@
 package Qaclickacademyframework.KeywordUtil;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
 
 import Qaclickacademyframework.DriverReaders.AllDrivers;
 
@@ -34,7 +38,29 @@ public void threadSleep(int s) {
 	
 }
 
-public void autocomplete() {
+public void autocomplete(By id, String auto) {
 	
+	List<WebElement> items=driver.findElements(id);
+	
+	
+	for(int i=0; i<items.size();i++) {   
+		
+		if(items.get(i).getText().equals(auto)) {
+			
+			items.get(i).click();
+		}
+	}
+}
+
+public void basicDropDown(By id) {
+	
+	WebElement optionDrop=driver.findElement(id);
+	
+	Select drop=new Select(optionDrop);
+	drop.selectByVisibleText("Option3");
+}
+
+public void checkBox(By id) {
+	driver.findElement(id).click();;
 }
 }

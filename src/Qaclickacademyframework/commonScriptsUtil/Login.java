@@ -48,10 +48,12 @@ public class Login extends AllDrivers{
 		
 		String password=pro.getProperty("password");
 	  	    
-	    key.clickFunction(objrep.signIn);
+	   /* key.clickFunction(objrep.signIn);
 	    key.sendkeysFunction(objrep.logEmail,username1);
 	    key.sendkeysFunction(objrep.logPass,password);
 	    key.clickFunction(objrep.logsub);
+	    
+	    */
 	  	    
 	  
   }
