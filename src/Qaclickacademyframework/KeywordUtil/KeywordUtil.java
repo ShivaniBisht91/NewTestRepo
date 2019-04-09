@@ -1,9 +1,12 @@
 package Qaclickacademyframework.KeywordUtil;
 
+import java.util.Iterator;
 import java.util.List;
+import java.util.Set;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
 import Qaclickacademyframework.DriverReaders.AllDrivers;
@@ -63,4 +66,50 @@ public void basicDropDown(By id) {
 public void checkBox(By id) {
 	driver.findElement(id).click();;
 }
+
+public void openNewWindow(By id, By xpath){
+	
+	driver.findElement(id).click();
+	
+	String mainWindow=driver.getWindowHandle();
+	Set<String> allWindow=driver.getWindowHandles();
+	
+	Iterator<String> it=allWindow.iterator();
+	
+	while(it.hasNext()){
+		
+		String window=it.next();
+		
+		if(!window.equals(mainWindow)) {
+			
+			String childWindow=window;
+			driver.switchTo().window(childWindow);
+			
+			try {
+				Thread.sleep(4000);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			driver.findElement(xpath).click();
+		}
+		
+	}
+	try {
+		Thread.sleep(4000);
+	} catch (InterruptedException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+	
+	driver.close();
+
+driver.switchTo().window(mainWindow);		
+}
+
+public void alertaccept() {
+
+	driver.switchTo().alert().accept();
+}
+
 }

@@ -24,5 +24,15 @@ public class PracticePage extends AllDrivers {
 	  
 	  key.basicDropDown(objrep.drop3);
 	  key.checkBox(objrep.check2);
+	  
+	  key.openNewWindow(objrep.openWindow, objrep.childwindowlink);
+	  
+	  key.openNewWindow(objrep.openTab, objrep.childwindowlink);
+	  
+	  String alerttext=pro.getProperty("alerttext");
+	  key.sendkeysFunction(objrep.alerttext,alerttext);
+	  key.threadSleep(3000);
+	  key.clickFunction(objrep.alertalertbtn);
+	  key.alertaccept();
   }
 }

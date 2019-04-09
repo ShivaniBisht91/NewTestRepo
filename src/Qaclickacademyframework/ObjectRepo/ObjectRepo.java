@@ -13,6 +13,11 @@ public class ObjectRepo extends AllDrivers {
 	public By autolist=By.className("ui-menu-item");
 	public By drop3=By.id("dropdown-class-example");
 	public By check2=By.id("checkBoxOption2");
-
+	public By openWindow=By.id("openwindow");
+	public By childwindowlink=By.xpath("//*[text()='Selenium Webdriver with Java Basics + Advanced + Interview Guide']");
+	public By openTab=By.id("opentab");
+	public By alerttext=By.id("name");
+	public By alertalertbtn=By.id("alertbtn");
+	public By alertconfirmbtn=By.id("confirmbtn");
 
 }
