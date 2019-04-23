@@ -12,7 +12,11 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import org.testng.annotations.BeforeTest;
 
-public class AllDrivers{
+import com.aventstack.extentreports.Status;
+
+import Qaclickacademyframework.extentReport.Report;
+
+public class AllDrivers extends Report{
 	
 	public static WebDriver driver;
 	public Properties pro;
@@ -53,6 +57,9 @@ public class AllDrivers{
 		System.setProperty("webdriver.chrome.driver",  System.getProperty("user.dir")+chropath);
 		driver= new ChromeDriver();
 		driver.get(pro.getProperty("URL"));
+		
+		logger.log(Status.INFO, "Navigating to URL...");
+		
 		driver.manage().window().maximize();
 		
   }else if(browser.equalsIgnoreCase("firefox")) {
@@ -63,6 +70,9 @@ public class AllDrivers{
 			System.setProperty("webdriver.chrome.driver",  System.getProperty("user.dir")+firepath);
 			driver= new ChromeDriver();
 			driver.get(pro.getProperty("URL"));
+			
+			logger.log(Status.INFO, "Navigating to URL...");
+			
 			driver.manage().window().maximize();
 			
 		}else if(browser.equalsIgnoreCase("IE")) {
@@ -73,6 +83,9 @@ public class AllDrivers{
 			System.setProperty("webdriver.chrome.driver",  System.getProperty("user.dir")+iepath);
 			driver= new ChromeDriver();
 			driver.get(pro.getProperty("URL"));
+			
+			logger.log(Status.INFO, "Navigating to URL...");
+			
 			driver.manage().window().maximize();
 		
 	}else if(browser.equalsIgnoreCase("opera")){
@@ -83,6 +96,9 @@ public class AllDrivers{
 		System.setProperty("webdriver.chrome.driver",  System.getProperty("user.dir")+operapath);
 		driver= new ChromeDriver();
 		driver.get(pro.getProperty("URL"));
+		
+		logger.log(Status.INFO, "Navigating to URL...");
+		
 		driver.manage().window().maximize();
 	}else {
 	    System.out.println("No such browser present");

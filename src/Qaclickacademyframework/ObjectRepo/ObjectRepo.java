@@ -19,5 +19,11 @@ public class ObjectRepo extends AllDrivers {
 	public By alerttext=By.id("name");
 	public By alertalertbtn=By.id("alertbtn");
 	public By alertconfirmbtn=By.id("confirmbtn");
+	
+	public By Course=By.xpath("//td[text()='WebSecurity Testing for Beginners-QA knowledge to next level']");
+	public By table=By.id("product");
+	public By rows=By.xpath("//table[@id='product']/tbody/tr");
+	public By cols=By.xpath("//table[@id='product']/tbody/tr/td");
+	public By tHeadings=By.xpath("//table[@id='product']/tbody/tr/th");
 
 }

@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-04-09T14:25:21Z" name="Default suite" finished-at="2019-04-09T14:26:47Z" duration-ms="85519">
+  <suite started-at="2019-04-22T13:59:47Z" name="Default suite" finished-at="2019-04-22T14:01:22Z" duration-ms="94945">
     <groups>
     </groups>
-    <test started-at="2019-04-09T14:25:21Z" name="Default test" finished-at="2019-04-09T14:26:47Z" duration-ms="85519">
+    <test started-at="2019-04-22T13:59:47Z" name="Default test" finished-at="2019-04-22T14:01:22Z" duration-ms="94945">
       <class name="Qaclickacademyframework.TestCases.PracticePage">
-        <test-method is-config="true" signature="openChrome()[pri:0, instance:Qaclickacademyframework.TestCases.PracticePage@f2ff811]" started-at="2019-04-09T14:25:21Z" name="openChrome" finished-at="2019-04-09T14:26:10Z" duration-ms="48938" status="PASS">
+        <test-method is-config="true" signature="openChrome()[pri:0, instance:Qaclickacademyframework.TestCases.PracticePage@1329eff]" started-at="2019-04-22T13:59:47Z" name="openChrome" finished-at="2019-04-22T14:00:40Z" duration-ms="52602" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openChrome -->
-        <test-method signature="all()[pri:0, instance:Qaclickacademyframework.TestCases.PracticePage@f2ff811]" started-at="2019-04-09T14:26:10Z" name="all" finished-at="2019-04-09T14:26:47Z" duration-ms="36554" status="PASS">
+        <test-method signature="all()[pri:0, instance:Qaclickacademyframework.TestCases.PracticePage@1329eff]" started-at="2019-04-22T14:00:40Z" name="all" finished-at="2019-04-22T14:01:22Z" duration-ms="42326" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- all -->
